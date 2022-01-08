@@ -8,4 +8,5 @@ app.use('/jsm/', express.static(path.join(__dirname, 'node_modules/three/example
 
 app.listen(3000, () =>{
     console.log("visit http://127.0.0.1:3000");
+    console.log("or http://localhost:3000");
 });
