@@ -1,16 +1,13 @@
-# Three.js Starter
+1. Clone this repository on your system
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+2. Open Terminal or Command Prompt on root directory of this project and type: npm init -y
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+3. npm install express
 
-# Run the local server at localhost:8080
-npm run dev
+4. npm install three
 
-# Build for production in the dist/ directory
-npm run build
-```
+5. Now open package.json file under "scripts": type "start": "node app.js"
+
+6. And finally open your Terminal or Command Prompt on root directroy and type: npm start
+
+7. open browser and type localhost:3000
