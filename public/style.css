@@ -26,10 +26,6 @@ body{
     /* overflow: hidden; */
 }
 
-.accent{
-    color: var(--accent-color);
-}
-
 .flex-container{
     display: flex;
     flex-direction: row;
